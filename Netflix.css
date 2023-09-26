@@ -3,6 +3,7 @@
     padding: 0;
     color: #ffff;
     box-sizing: border-box;
+    font-family: sans-serif;
 
 }
 
@@ -40,14 +41,14 @@ nav{
    padding: 13rem 0;
 }
 .hero > h1{
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: bolder;
 }
 .hero > h3{
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 .hero > p{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 
 }
 form{
@@ -119,7 +120,7 @@ input{
     padding: 10px 15px;
     position:absolute ;
     bottom: 130px;
-    left: 320px;
+    left: 330px;
 }
 .mobile,.kids{
     display: flex;
@@ -141,7 +142,7 @@ input{
     height: 100vh;
     padding-top:50px ;
 }
-#accordion{
+/* #accordion{
     margin: 20px auto;
     width: 1000px;
 
@@ -180,7 +181,7 @@ input{
     max-height: 400px;
   
     
-}
+} */
 
 .accordion{
     max-width:1000px ;
@@ -244,6 +245,7 @@ footer{
     padding: 5rem 10rem;
     display: flex;
     justify-content: space-between;
+    font-size: .1rem;
 
 
 }
