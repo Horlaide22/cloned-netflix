@@ -8,7 +8,7 @@
 }
 
 .header{
-    background-image:url('./Image/background_img.jpg') , linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%); ;
+    background-image:url('./Image/background_img.jpg') , linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%); 
     background-size: cover;
     background-repeat: no-repeat;
     height: 85vh;
@@ -31,6 +31,11 @@ nav{
     border-radius: 7px;
     font-size: medium;
     font-weight: bold;
+    cursor: pointer;
+
+}
+.btn:hover{
+    background-color:#a8060e;
 }
 .hero{
    display: flex;
@@ -78,7 +83,12 @@ input{
     align-items: center;
     justify-content: center;
     font-weight: bolder;
+    cursor: pointer;
  
+}
+
+.hero_btn:hover{
+    background-color:#a8060e;
 }
 .section_two,.section_three, .section_four, .sectoin_five{
     background-color: black;
